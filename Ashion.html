@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashion</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header
+      class="container-fluid d-flex justify-content-between align-items-center bg-white py-4 px-3 px-md-4 px-lg-5"
+      style="box-shadow: 10px 10px 10px #f5f5f5"
+    >
+      <div class="logo pe-5">
+        <img src="/images/logo.png (1).webp" alt="" />
+      </div>
+      <nav class="Navbar d-none d-lg-flex gap-3 align-items-center mx-auto">
+        <a href="#" class="text-decoration-none">
+          <p
+            class="mb-0"
+            style="
+              font-size: 15px;
+              line-height: 23px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: black;
+              border-bottom: 2px solid #ca1515;
+            "
+          >
+            HOME
+          </p>
+        </a>
+        <a href="#" class="text-decoration-none">
+          <p
+            class="mb-0"
+            style="
+              font-size: 15px;
+              line-height: 23px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: black;
+              border-bottom: 2px solid transparent;
+            "
+          >
+            Women's
+          </p>
+        </a>
+        <a href="#" class="text-decoration-none">
+          <p
+            class="mb-0"
+            style="
+              font-size: 15px;
+              line-height: 23px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: black;
+              border-bottom: 2px solid transparent;
+            "
+          >
+            Men's
+          </p>
+        </a>
+        <a href="#" class="text-decoration-none">
+          <p
+            class="mb-0"
+            style="
+              font-size: 15px;
+              line-height: 23px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: black;
+              border-bottom: 2px solid transparent;
+            "
+          >
+            Shop
+          </p>
+        </a>
+        <a href="#" class="text-decoration-none">
+          <p
+            class="mb-0"
+            style="
+              font-size: 15px;
+              line-height: 23px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: black;
+              border-bottom: 2px solid transparent;
+            "
+          >
+            Pages
+          </p>
+        </a>
+        <a href="#" class="text-decoration-none">
+          <p
+            class="mb-0"
+            style="
+              font-size: 15px;
+              line-height: 23px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: black;
+              border-bottom: 2px solid transparent;
+            "
+          >
+            Blog
+          </p>
+        </a>
+        <a href="#" class="text-decoration-none">
+          <p
+            class="mb-0"
+            style="
+              font-size: 15px;
+              line-height: 23px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: black;
+              border-bottom: 2px solid transparent;
+            "
+          >
+            Contact
+          </p>
+        </a>
+      </nav>
+      <div class="d-none d-lg-flex align-items-center">
+        <button
+          class="border-0 bg-transparent p-0"
+          style="
+            cursor: pointer;
+            color: #666674;
+            font-size: 12px;
+            line-height: 18px;
+            font-weight: 400;
+          "
+        >
+          Login
+        </button>
+        <span class="mx-1" style="color: #666674"> / </span>
+        <button
+          class="border-0 bg-transparent p-0"
+          style="
+            cursor: pointer;
+            color: #666674;
+            font-size: 12px;
+            line-height: 18px;
+            font-weight: 400;
+          "
+        >
+          Register
+        </button>
+      </div>
+      <div class="d-flex align-items-center gap-3 ps-3">
+        <i
+          class="fa-solid fa-magnifying-glass"
+          style="font-size: 18px; cursor: pointer"
+        ></i>
+        <i
+          class="fa-regular fa-heart"
+          style="font-size: 18px; cursor: pointer"
+        ></i>
+        <i
+          class="fa-solid fa-receipt"
+          style="font-size: 18px; cursor: pointer"
+        ></i>
+        <!-- MOBILE HAMBURGER -->
+        <button
+          class="d-lg-none border-0 bg-transparent p-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i
+            class="fa-solid fa-bars"
+            style="font-size: 22px; cursor: pointer"
+          ></i>
+        </button>
+      </div>
+    </header>
+    <!-- mobile navbar -->
+    <div class="collapse d-lg-none" id="navbar">
+      <div class="d-flex flex-column align-items-center gap-3 py-4 bg-white">
+        <a href="#" class="text-decoration-none text-dark"> HOME </a>
+        <a href="#" class="text-decoration-none text-dark"> Women's </a>
+        <a href="#" class="text-decoration-none text-dark"> Men's </a>
+        <a href="#" class="text-decoration-none text-dark"> Shop </a>
+        <a href="#" class="text-decoration-none text-dark"> Pages </a>
+        <a href="#" class="text-decoration-none text-dark"> Blog </a>
+        <a href="#" class="text-decoration-none text-dark"> Contact </a>
+        <div>
+          <button
+            class="border-0 bg-transparent"
+            style="color: #666674; cursor: pointer"
+          >
+            Login
+          </button>
+          <span style="color: #666674"> / </span>
+          <button
+            class="border-0 bg-transparent"
+            style="color: #666674; cursor: pointer"
+          >
+            Register
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- hero-section -->
+    <section class="container-fluid px-0 mt-2">
+      <div class="row g-2">
+        <!-- left-side -->
+        <div class="col-lg-6 col-md-12 col-sm-12 position-relative">
+          <img
+            src="/images/category-1.jpg.webp"
+            class="w-100"
+            style="height: 608px; object-fit: cover"
+            alt=""
+          />
+          <div class="position-absolute top-50 start-0 translate-middle-y ps-5">
+            <h1 style="font-size: 42px; font-weight: 600" class="">
+              Women's Fashion
+            </h1>
+            <p style="font-size: 16px; color: #666">
+              Discover the latest fashion trends
+            </p>
+
+            <a
+              href="#"
+              class="text-dark text-decoration-none"
+              style="
+                font-size: 14px;
+                font-weight: 600;
+                border-bottom: 2px solid #ca1515;
+              "
+            >
+              SHOP NOW
+            </a>
+          </div>
+        </div>
+        <!-- right-side -->
+        <div class="col-lg-3">
+          <div class="row g-2">
+            <!-- top -->
+            <div class="d-flex gap-2">
+              <div class="col-6 col-sm-6 col-lg-12 position-relative">
+                <img
+                  src="/images/category-2.jpg.webp"
+                  class="w-100"
+                  style="height: 300px; object-fit: cover"
+                  alt="Men's Fashion"
+                />
+                <div
+                  class="position-absolute top-50 start-0 translate-middle-y ps-5"
+                >
+                  <h2
+                    style="font-size: 24px; line-height: 29px; font-weight: 700"
+                  >
+                    Men's Fashion
+                  </h2>
+                  <p
+                    style="
+                      font-size: 14px;
+                      padding: 0%;
+                      line-height: 24px;
+                      font-weight: 400;
+                      color: #666674;
+                    "
+                  >
+                    358 items
+                  </p>
+                  <a
+                    href="#"
+                    class="text-dark text-decoration-none"
+                    style="border-bottom: 2px solid #ca1515"
+                  >
+                    SHOP NOW
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-sm-6 col-lg-12 position-relative">
+                <img
+                  src="/images/category-3.jpg.webp"
+                  class="w-100"
+                  style="height: 300px; object-fit: cover"
+                  alt="Men's Fashion"
+                />
+                <div
+                  class="position-absolute top-50 start-0 translate-middle-y ps-5"
+                >
+                  <h2 style="font-size: 30px; font-weight: 600">
+                    Men's Fashion
+                  </h2>
+                  <p
+                    style="
+                      font-size: 14px;
+                      padding: 0%;
+                      line-height: 24px;
+                      font-weight: 400;
+                      color: #666674;
+                    "
+                  >
+                    273 items
+                  </p>
+                  <a
+                    href="#"
+                    class="text-dark text-decoration-none"
+                    style="border-bottom: 2px solid #ca1515"
+                  >
+                    SHOP NOW
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- bottom -->
+            <div class="d-flex gap-2">
+              <div class="col-6 col-sm-6 col-lg-12 position-relative">
+                <img
+                  src="/images/category-4.jpg.webp"
+                  class="w-100"
+                  style="height: 300px; object-fit: cover"
+                  alt="Men's Fashion"
+                />
+                <div
+                  class="position-absolute top-50 start-0 translate-middle-y ps-5"
+                >
+                  <h2 style="font-size: 30px; font-weight: 600">
+                    Men's Fashion
+                  </h2>
+                  <p
+                    style="
+                      font-size: 14px;
+                      padding: 0%;
+                      line-height: 24px;
+                      font-weight: 400;
+                      color: #666674;
+                    "
+                  >
+                    273 items
+                  </p>
+                  <a
+                    href="#"
+                    class="text-dark text-decoration-none"
+                    style="border-bottom: 2px solid #ca1515"
+                  >
+                    SHOP NOW
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-sm-6 col-lg-12 position-relative">
+                <img
+                  src="/images/category-5.jpg.webp"
+                  class="w-100"
+                  style="height: 300px; object-fit: cover"
+                  alt="Men's Fashion"
+                />
+                <div
+                  class="position-absolute top-50 start-0 translate-middle-y ps-5"
+                >
+                  <h2 style="font-size: 30px; font-weight: 600">
+                    Men's Fashion
+                  </h2>
+                  <p
+                    style="
+                      font-size: 14px;
+                      padding: 0%;
+                      line-height: 24px;
+                      font-weight: 400;
+                      color: #666674;
+                    "
+                  >
+                    273 items
+                  </p>
+                  <a
+                    href="#"
+                    class="text-dark text-decoration-none"
+                    style="border-bottom: 2px solid #ca1515"
+                  >
+                    SHOP NOW
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- new products -->
+    <!-- NEW PRODUCT HEADER -->
+    <section class="container-fluid py-5 px-5">
+      <div class="d-flex justify-content-between align-items-center">
+        <h2
+          class="mb-0"
+          style="
+            font-size: 32px;
+            font-weight: 600;
+            border-bottom: 3px solid #ca1515;
+            padding-bottom: 8px;
+          "
+        >
+          NEW PRODUCT
+        </h2>
+        <div class="newproducts d-flex gap-4 align-items-center">
+          <a
+            href="#"
+            class="text-decoration-none text-dark"
+            style="border-bottom: 3px solid #ca1515"
+          >
+            All
+          </a>
+          <a
+            href="#"
+            class="text-decoration-none text-dark"
+            style="border-bottom: 3px solid transparent"
+          >
+            Women's
+          </a>
+          <a
+            href="#"
+            class="text-decoration-none text-dark"
+            style="border-bottom: 3px solid transparent"
+          >
+            Men's
+          </a>
+          <a
+            href="#"
+            class="text-decoration-none text-dark"
+            style="border-bottom: 3px solid transparent"
+          >
+            Kid's
+          </a>
+          <a
+            href="#"
+            class="text-decoration-none text-dark"
+            style="border-bottom: 3px solid transparent"
+          >
+            Accessories
+          </a>
+          <a
+            href="#"
+            class="text-decoration-none text-dark"
+            style="border-bottom: 3px solid transparent"
+          >
+            Cosmetics
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
