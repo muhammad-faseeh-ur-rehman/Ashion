@@ -1,7 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+.Navbar p:hover {
+  border-bottom-color: #ca1515 !important;
+}
+.newproducts a:hover {
+  border-bottom-color: #ca1515 !important;
+}
+.img-product:hover .product-icons {
+  visibility: visible !important;
+}
+.product-icons:hover {
+  background-color: #ca1515 !important;
+  color: white;
+}
+.img-gallery:hover img {
+  opacity: 0.2;
+}
+.img-gallery:hover {
+  background-color: white;
+}
+.img-gallery:hover i {
+  visibility: visible !important;
+}
+.input-field:focus-within{
+  border: 2px solid #ca1515 !important;
+}
 
-.Navbar p:hover{
-    border-bottom-color: #ca1515 !important;
-}
-.newproducts a:hover{
-    border-bottom-color: #ca1515 !important;
-}
