@@ -1187,22 +1187,19 @@
       </div>
     </div>
     <!-- new arrivals -->
-    <div
-      class="container-fluid w-100 col-12 p-0 d-flex flex-column my-5 text-center"
-    >
-      <div class="position-relative">
+    <div class="container-fluid w-100 p-0 d-flex flex-column my-5 text-center">
+      <div class="position-relative overflow-hidden">
         <img
           src="/images/banner-1.jpg.webp"
-          class="img-fluid object-fit-cover"
-          style="height: 500px; width: 100%"
-          alt=""
+          class="img-fluid w-100 object-fit-cover"
+          style="height: 500px"
+          alt="Linen Breeze Dress"
         />
         <div
-          class="position-absolute bottom-0 start-50 translate-middle-x"
-          style="top: 35%"
+          class="position-absolute top-50 start-50 translate-middle w-100 px-3"
         >
           <p
-            class="pb-0 mb-0"
+            class="mb-1"
             style="
               font-size: 18px;
               line-height: 28px;
@@ -1213,9 +1210,10 @@
             New Arrivals
           </p>
           <h2
+            class="mb-3"
             style="
-              font-size: 50px;
-              line-height: 96px;
+              font-size: clamp(32px, 5vw, 50px);
+              line-height: 1.2;
               font-weight: 400;
               color: rgb(17, 17, 17);
               font-family: cursive;
@@ -1224,6 +1222,7 @@
             Linen Breeze Dress
           </h2>
           <button
+            class="bg-transparent px-0"
             style="
               font-size: 14px;
               line-height: 21px;
@@ -1237,8 +1236,8 @@
           </button>
         </div>
         <div
-          class="d-flex gap-3 translate-middle-x start-50 bottom-0 position-absolute"
-          style="top: 75%"
+          class="position-absolute start-50 translate-middle-x d-flex gap-3"
+          style="bottom: 30px"
         >
           <span
             style="
@@ -1652,531 +1651,591 @@
       </div>
     </div>
     <!-- free-shipping -->
-    <div class="container-fluid d-flex px-5 mt-5 justify-content-between">
-      <div class="d-flex gap-3 col-3 col-md-3">
-        <i
-          class="fa-solid fa-truck"
-          style="color: #ca1515; font-size: 36px; padding-top: 5px"
-        ></i>
-        <div class="d-flex flex-column justify-content-center">
-          <h2
-            style="
-              font-size: 19px;
-              line-height: 19px;
-              font-weight: 600;
-              color: rgb(17, 17, 17);
-            "
-          >
-            Free Shipping
-          </h2>
-          <p
-            style="
-              font-size: 15px;
-              line-height: 24px;
-              font-weight: 400;
-              color: rgb(102, 102, 102);
-            "
-          >
-            For all oder over $99
-          </p>
+    <div class="container-fluid px-3 px-md-5 mt-5">
+      <div class="row g-4">
+        <!-- FREE SHIPPING -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="d-flex gap-3 align-items-start">
+            <i
+              class="fa-solid fa-truck flex-shrink-0"
+              style="color: #ca1515; font-size: 36px; padding-top: 5px"
+            ></i>
+
+            <div class="d-flex flex-column">
+              <h2
+                class="mb-1"
+                style="
+                  font-size: 19px;
+                  line-height: 19px;
+                  font-weight: 600;
+                  color: rgb(17, 17, 17);
+                "
+              >
+                Free Shipping
+              </h2>
+
+              <p
+                class="mb-0"
+                style="
+                  font-size: 15px;
+                  line-height: 24px;
+                  font-weight: 400;
+                  color: rgb(102, 102, 102);
+                "
+              >
+                For all order over $99
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="d-flex gap-3 col-3 col-md-3">
-        <i
-          class="fa-solid fa-money-bill"
-          style="color: #ca1515; font-size: 36px; padding-top: 5px"
-        ></i>
-        <div class="d-flex flex-column justify-content-center">
-          <h2
-            style="
-              font-size: 19px;
-              line-height: 19px;
-              font-weight: 600;
-              color: rgb(17, 17, 17);
-            "
-          >
-            Free Shipping
-          </h2>
-          <p
-            style="
-              font-size: 15px;
-              line-height: 24px;
-              font-weight: 400;
-              color: rgb(102, 102, 102);
-            "
-          >
-            For all oder over $99
-          </p>
+
+        <!-- MONEY BACK -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="d-flex gap-3 align-items-start">
+            <i
+              class="fa-solid fa-money-bill flex-shrink-0"
+              style="color: #ca1515; font-size: 36px; padding-top: 5px"
+            ></i>
+
+            <div class="d-flex flex-column">
+              <h2
+                class="mb-1"
+                style="
+                  font-size: 19px;
+                  line-height: 19px;
+                  font-weight: 600;
+                  color: rgb(17, 17, 17);
+                "
+              >
+                Money Back
+              </h2>
+
+              <p
+                class="mb-0"
+                style="
+                  font-size: 15px;
+                  line-height: 24px;
+                  font-weight: 400;
+                  color: rgb(102, 102, 102);
+                "
+              >
+                If goods have problems
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="d-flex gap-3 col-3 col-md-3">
-        <i
-          class="fa-solid fa-headset"
-          style="color: #ca1515; font-size: 36px; padding-top: 5px"
-        ></i>
-        <div class="d-flex flex-column justify-content-center">
-          <h2
-            style="
-              font-size: 19px;
-              line-height: 19px;
-              font-weight: 600;
-              color: rgb(17, 17, 17);
-            "
-          >
-            Free Shipping
-          </h2>
-          <p
-            style="
-              font-size: 15px;
-              line-height: 24px;
-              font-weight: 400;
-              color: rgb(102, 102, 102);
-            "
-          >
-            For all oder over $99
-          </p>
+
+        <!-- ONLINE SUPPORT -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="d-flex gap-3 align-items-start">
+            <i
+              class="fa-solid fa-headset flex-shrink-0"
+              style="color: #ca1515; font-size: 36px; padding-top: 5px"
+            ></i>
+
+            <div class="d-flex flex-column">
+              <h2
+                class="mb-1"
+                style="
+                  font-size: 19px;
+                  line-height: 19px;
+                  font-weight: 600;
+                  color: rgb(17, 17, 17);
+                "
+              >
+                Online Support
+              </h2>
+
+              <p
+                class="mb-0"
+                style="
+                  font-size: 15px;
+                  line-height: 24px;
+                  font-weight: 400;
+                  color: rgb(102, 102, 102);
+                "
+              >
+                24/7 support available
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="d-flex gap-3 col-3 col-md-3">
-        <i
-          class="fa-solid fa-headphones"
-          style="color: #ca1515; font-size: 36px; padding-top: 5px"
-        ></i>
-        <div class="d-flex flex-column justify-content-center">
-          <h2
-            style="
-              font-size: 19px;
-              line-height: 19px;
-              font-weight: 600;
-              color: rgb(17, 17, 17);
-            "
-          >
-            Free Shipping
-          </h2>
-          <p
-            style="
-              font-size: 15px;
-              line-height: 24px;
-              font-weight: 400;
-              color: rgb(102, 102, 102);
-            "
-          >
-            For all oder over $99
-          </p>
+
+        <!-- PAYMENT -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="d-flex gap-3 align-items-start">
+            <i
+              class="fa-solid fa-headphones flex-shrink-0"
+              style="color: #ca1515; font-size: 36px; padding-top: 5px"
+            ></i>
+
+            <div class="d-flex flex-column">
+              <h2
+                class="mb-1"
+                style="
+                  font-size: 19px;
+                  line-height: 19px;
+                  font-weight: 600;
+                  color: rgb(17, 17, 17);
+                "
+              >
+                Secure Payment
+              </h2>
+
+              <p
+                class="mb-0"
+                style="
+                  font-size: 15px;
+                  line-height: 24px;
+                  font-weight: 400;
+                  color: rgb(102, 102, 102);
+                "
+              >
+                100% secure payment
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <!-- img-gallery -->
-    <div class="container-fluid d-flex p-0 my-5">
-      <div
-        class="img-gallery position-relative col-2"
-        style="position: relative; overflow: hidden"
-      >
-        <img
-          src="/images/insta-1.jpg.webp"
-          class="img-fluid"
-          style="height: 310px"
-          alt=""
-        />
+    <div class="container-fluid p-0 my-5">
+      <div class="row g-0 p-0 m-0">
+        <div class="position-relative col-12 col-md-4 col-lg-2">
+          <img
+            src="/images/insta-1.jpg.webp"
+            class="img-fluid"
+            style="height: 310px"
+            alt=""
+          />
 
-        <div class="position-absolute top-50 start-50 translate-middle">
-          <i
-            class="fa-brands fa-instagram"
-            style="
-              font-size: 29px;
-              color: black;
-              visibility: hidden;
-              cursor: pointer;
-            "
-          ></i>
+          <div class="position-absolute top-50 start-50 translate-middle">
+            <i
+              class="fa-brands fa-instagram"
+              style="
+                font-size: 29px;
+                color: black;
+                visibility: hidden;
+                cursor: pointer;
+              "
+            ></i>
+          </div>
         </div>
-      </div>
-      <div
-        class="img-gallery position-relative col-2"
-        style="position: relative; overflow: hidden"
-      >
-        <img
-          src="/images/insta-2.jpg.webp"
-          class="img-fluid"
-          style="height: 310px"
-          alt=""
-        />
+        <div
+          class="img-gallery position-relative col-12 col-md-4 col-lg-2"
+          style="position: relative; overflow: hidden"
+        >
+          <img
+            src="/images/insta-2.jpg.webp"
+            class="img-fluid"
+            style="height: 310px"
+            alt=""
+          />
 
-        <div class="position-absolute top-50 start-50 translate-middle">
-          <i
-            class="fa-brands fa-instagram"
-            style="
-              font-size: 29px;
-              color: black;
-              visibility: hidden;
-              cursor: pointer;
-            "
-          ></i>
+          <div class="position-absolute top-50 start-50 translate-middle">
+            <i
+              class="fa-brands fa-instagram"
+              style="
+                font-size: 29px;
+                color: black;
+                visibility: hidden;
+                cursor: pointer;
+              "
+            ></i>
+          </div>
         </div>
-      </div>
-      <div
-        class="img-gallery position-relative col-2"
-        style="position: relative; overflow: hidden"
-      >
-        <img
-          src="/images/insta-3.jpg.webp"
-          class="img-fluid"
-          style="height: 310px"
-          alt=""
-        />
+        <div
+          class="img-gallery position-relative col-12 col-md-4 col-lg-2"
+          style="position: relative; overflow: hidden"
+        >
+          <img
+            src="/images/insta-3.jpg.webp"
+            class="img-fluid"
+            style="height: 310px"
+            alt=""
+          />
 
-        <div class="position-absolute top-50 start-50 translate-middle">
-          <i
-            class="fa-brands fa-instagram"
-            style="
-              font-size: 29px;
-              color: black;
-              visibility: hidden;
-              cursor: pointer;
-            "
-          ></i>
+          <div class="position-absolute top-50 start-50 translate-middle">
+            <i
+              class="fa-brands fa-instagram"
+              style="
+                font-size: 29px;
+                color: black;
+                visibility: hidden;
+                cursor: pointer;
+              "
+            ></i>
+          </div>
         </div>
-      </div>
-      <div
-        class="img-gallery position-relative col-2"
-        style="position: relative; overflow: hidden"
-      >
-        <img
-          src="/images/insta-4.jpg.webp"
-          class="img-fluid"
-          style="height: 310px"
-          alt=""
-        />
+        <div
+          class="img-gallery position-relative col-12 col-md-4 col-lg-2"
+          style="position: relative; overflow: hidden"
+        >
+          <img
+            src="/images/insta-4.jpg.webp"
+            class="img-fluid"
+            style="height: 310px"
+            alt=""
+          />
 
-        <div class="position-absolute top-50 start-50 translate-middle">
-          <i
-            class="fa-brands fa-instagram"
-            style="
-              font-size: 29px;
-              color: black;
-              visibility: hidden;
-              cursor: pointer;
-            "
-          ></i>
+          <div class="position-absolute top-50 start-50 translate-middle">
+            <i
+              class="fa-brands fa-instagram"
+              style="
+                font-size: 29px;
+                color: black;
+                visibility: hidden;
+                cursor: pointer;
+              "
+            ></i>
+          </div>
         </div>
-      </div>
-      <div
-        class="img-gallery position-relative col-2"
-        style="position: relative; overflow: hidden"
-      >
-        <img
-          src="/images/insta-5.jpg.webp"
-          class="img-fluid"
-          style="height: 310px"
-          alt=""
-        />
+        <div
+          class="img-gallery position-relative col-12 col-md-4 col-lg-2"
+          style="position: relative; overflow: hidden"
+        >
+          <img
+            src="/images/insta-5.jpg.webp"
+            class="img-fluid"
+            style="height: 310px"
+            alt=""
+          />
 
-        <div class="position-absolute top-50 start-50 translate-middle">
-          <i
-            class="fa-brands fa-instagram"
-            style="
-              font-size: 29px;
-              color: black;
-              visibility: hidden;
-              cursor: pointer;
-            "
-          ></i>
+          <div class="position-absolute top-50 start-50 translate-middle">
+            <i
+              class="fa-brands fa-instagram"
+              style="
+                font-size: 29px;
+                color: black;
+                visibility: hidden;
+                cursor: pointer;
+              "
+            ></i>
+          </div>
         </div>
-      </div>
-      <div
-        class="img-gallery position-relative col-2"
-        style="position: relative; overflow: hidden"
-      >
-        <img
-          src="/images/insta-6.jpg.webp"
-          class="img-fluid"
-          style="height: 310px"
-          alt=""
-        />
+        <div
+          class="img-gallery position-relative col-12 col-md-4 col-lg-2"
+          style="position: relative; overflow: hidden"
+        >
+          <img
+            src="/images/insta-6.jpg.webp"
+            class="img-fluid"
+            style="height: 310px"
+            alt=""
+          />
 
-        <div class="position-absolute top-50 start-50 translate-middle">
-          <i
-            class="fa-brands fa-instagram"
-            style="
-              font-size: 29px;
-              color: black;
-              visibility: hidden;
-              cursor: pointer;
-            "
-          ></i>
+          <div class="position-absolute top-50 start-50 translate-middle">
+            <i
+              class="fa-brands fa-instagram"
+              style="
+                font-size: 29px;
+                color: black;
+                visibility: hidden;
+                cursor: pointer;
+              "
+            ></i>
+          </div>
         </div>
       </div>
     </div>
     <!-- footer -->
-    <footer class="container-fluid d-flex  gap-2 px-5" style="margin: 100px 0 60px 0">
-      <div class="d-flex flex-column col-4 gap-4">
-        <div class="logo pe-5">
-          <img src="/images/logo.png (1).webp" alt="" />
+    <footer class="container-fluid px-3 px-md-5" style="margin: 100px 0 60px 0">
+      <div class="row g-4">
+        <div class="col-12 col-lg-4">
+          <div class="d-flex flex-column gap-4">
+            <div class="logo">
+              <img
+                src="/images/logo.png (1).webp"
+                alt="Logo"
+                class="img-fluid"
+              />
+            </div>
+
+            <p
+              class="mb-0"
+              style="
+                font-size: 15px;
+                font-weight: 400;
+                color: rgb(102, 102, 102);
+              "
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt cilisis.
+            </p>
+
+            <!-- PAYMENT ICONS -->
+            <div
+              class="d-flex flex-wrap align-items-center gap-2"
+              style="margin-top: -10px"
+            >
+              <a href="#" class="text-decoration-none">
+                <i
+                  class="fa-brands fa-cc-visa"
+                  style="font-size: 39px; color: #1a1f71"
+                ></i>
+              </a>
+
+              <a href="#" class="text-decoration-none">
+                <i
+                  class="fa-brands fa-cc-mastercard"
+                  style="font-size: 39px; color: #ca1515"
+                ></i>
+              </a>
+
+              <a href="#" class="text-decoration-none">
+                <i class="fa-brands fa-google-pay" style="font-size: 39px"></i>
+              </a>
+
+              <a href="#" class="text-decoration-none">
+                <i
+                  class="fa-brands fa-cc-paypal"
+                  style="font-size: 39px; color: #003087"
+                ></i>
+              </a>
+
+              <a href="#" class="text-decoration-none">
+                <i
+                  class="fa-brands fa-cc-stripe"
+                  style="font-size: 39px; color: #635bff"
+                ></i>
+              </a>
+            </div>
+          </div>
         </div>
-        <p style="font-size: 15px; font-weight: 400; color: rgb(102, 102, 102)">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt cilisis.
-        </p>
-        <div class="d-flex gap-4 align-items-center" style="margin-top: -15px">
-          <a
-            href="#"
-            class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
-          >
-            <i
-              class="fa-brands fa-cc-visa"
-              style="font-size: 39px; color: #1a1f71"
-            ></i>
-          </a>
-          <a
-            href="#"
-            class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
-          >
-            <i
-              class="fa-brands fa-cc-mastercard"
-              style="font-size: 39px; color: #ca1515"
-            ></i>
-          </a>
-          <a
-            href="#"
-            class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
-          >
-            <i class="fa-brands fa-google-pay" style="font-size: 39px"></i>
-          </a>
-          <a
-            href="#"
-            class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
-          >
-            <i
-              class="fa-brands fa-cc-paypal"
-              style="font-size: 39px; color: #003087"
-            ></i>
-          </a>
-          <a
-            href="#"
-            class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
-          >
-            <i
-              class="fa-brands fa-cc-stripe"
-              style="font-size: 39px; color: #635bff"
-            ></i>
-          </a>
-        </div>
-      </div>
-      <div class="d-flex flex-column col-2">
-        <h2
-          style="
-            font-size: 19px;
-            line-height: 19px;
-            font-weight: 600;
-            color: rgb(17, 17, 17);
-          "
-        >
-          QUICK LINKS
-        </h2>
-        <div class="d-flex flex-column mt-3 gap-2">
-          <a
-            href=""
+        <div class="col-6 col-lg-2">
+          <h2
             style="
-              font-size: 15px;
-              line-height: 24px;
-              font-weight: 400;
-              color: rgb(102, 102, 102);
-              text-decoration: none;
-            "
-            >About</a
-          >
-          <a
-            href=""
-            style="
-              font-size: 15px;
-              line-height: 24px;
-              font-weight: 400;
-              color: rgb(102, 102, 102);
-              text-decoration: none;
-            "
-            >Blogs</a
-          >
-          <a
-            href=""
-            style="
-              font-size: 15px;
-              line-height: 24px;
-              font-weight: 400;
-              color: rgb(102, 102, 102);
-              text-decoration: none;
-            "
-            >Contact</a
-          >
-          <a
-            href=""
-            style="
-              font-size: 15px;
-              line-height: 24px;
-              font-weight: 400;
-              color: rgb(102, 102, 102);
-              text-decoration: none;
-            "
-            >FAQ</a
-          >
-        </div>
-      </div>
-      <div class="d-flex flex-column col-2">
-        <h2
-          style="
-            font-size: 19px;
-            line-height: 19px;
-            font-weight: 600;
-            color: rgb(17, 17, 17);
-          "
-        >
-          ACCOUNT
-        </h2>
-        <div class="d-flex flex-column mt-3 gap-2">
-          <a
-            href=""
-            style="
-              font-size: 15px;
-              line-height: 24px;
-              font-weight: 400;
-              color: rgb(102, 102, 102);
-              text-decoration: none;
-            "
-            >My Account</a
-          >
-          <a
-            href=""
-            style="
-              font-size: 15px;
-              line-height: 24px;
-              font-weight: 400;
-              color: rgb(102, 102, 102);
-              text-decoration: none;
-            "
-            >Orders Tracking</a
-          >
-          <a
-            href=""
-            style="
-              font-size: 15px;
-              line-height: 24px;
-              font-weight: 400;
-              color: rgb(102, 102, 102);
-              text-decoration: none;
-            "
-            >Checkout</a
-          >
-          <a
-            href=""
-            style="
-              font-size: 15px;
-              line-height: 24px;
-              font-weight: 400;
-              color: rgb(102, 102, 102);
-              text-decoration: none;
-            "
-            >Wishlist</a
-          >
-        </div>
-      </div>
-      <div class="d-flex flex-column col-4">
-        <h2
-          style="
-            font-size: 19px;
-            line-height: 19px;
-            font-weight: 600;
-            color: rgb(17, 17, 17);
-          "
-        >
-          NEWSLETTER
-        </h2>
-        <div
-          class="input-field d-flex justify-content-between mt-3 col-10 px-1 py-1 rounded-5 ps-3"
-          style="border: 1px solid #666"
-        >
-          <input
-            type="email"
-            placeholder="Enter your email"
-            style="text-decoration: none; border: none; outline: none"
-          />
-          <button
-            class="rounded-5 border-0 px-3 py-2"
-            style="
-              font-size: 16px;
-              line-height: 21px;
+              font-size: 19px;
+              line-height: 19px;
               font-weight: 600;
-              color: white;
-              background-color: #ca1515;
+              color: rgb(17, 17, 17);
             "
           >
-            SUBSCRIBE
-          </button>
+            QUICK LINKS
+          </h2>
+
+          <div class="d-flex flex-column mt-3 gap-2">
+            <a
+              href="#"
+              class="text-decoration-none"
+              style="
+                font-size: 15px;
+                line-height: 24px;
+                font-weight: 400;
+                color: rgb(102, 102, 102);
+              "
+            >
+              About
+            </a>
+
+            <a
+              href="#"
+              class="text-decoration-none"
+              style="
+                font-size: 15px;
+                line-height: 24px;
+                font-weight: 400;
+                color: rgb(102, 102, 102);
+              "
+            >
+              Blogs
+            </a>
+
+            <a
+              href="#"
+              class="text-decoration-none"
+              style="
+                font-size: 15px;
+                line-height: 24px;
+                font-weight: 400;
+                color: rgb(102, 102, 102);
+              "
+            >
+              Contact
+            </a>
+
+            <a
+              href="#"
+              class="text-decoration-none"
+              style="
+                font-size: 15px;
+                line-height: 24px;
+                font-weight: 400;
+                color: rgb(102, 102, 102);
+              "
+            >
+              FAQ
+            </a>
+          </div>
         </div>
-        <div class="d-flex gap-4 align-items-center mt-4">
-          <a
-            href="#"
-            class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
+        <div class="col-6 col-lg-2">
+          <h2
             style="
-              width: 40px;
-              height: 40px;
-              background-color: #e9e9e9;
-              color: #000;
+              font-size: 19px;
+              line-height: 19px;
+              font-weight: 600;
+              color: rgb(17, 17, 17);
             "
           >
-            <i class="fa-brands fa-facebook-f" style="font-size: 15px"></i>
-          </a>
-          <a
-            href="#"
-            class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
+            ACCOUNT
+          </h2>
+
+          <div class="d-flex flex-column mt-3 gap-2">
+            <a
+              href="#"
+              class="text-decoration-none"
+              style="
+                font-size: 15px;
+                line-height: 24px;
+                font-weight: 400;
+                color: rgb(102, 102, 102);
+              "
+            >
+              My Account
+            </a>
+
+            <a
+              href="#"
+              class="text-decoration-none"
+              style="
+                font-size: 15px;
+                line-height: 24px;
+                font-weight: 400;
+                color: rgb(102, 102, 102);
+              "
+            >
+              Orders Tracking
+            </a>
+
+            <a
+              href="#"
+              class="text-decoration-none"
+              style="
+                font-size: 15px;
+                line-height: 24px;
+                font-weight: 400;
+                color: rgb(102, 102, 102);
+              "
+            >
+              Checkout
+            </a>
+
+            <a
+              href="#"
+              class="text-decoration-none"
+              style="
+                font-size: 15px;
+                line-height: 24px;
+                font-weight: 400;
+                color: rgb(102, 102, 102);
+              "
+            >
+              Wishlist
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <h2
             style="
-              width: 40px;
-              height: 40px;
-              background-color: #e9e9e9;
-              color: #000;
+              font-size: 19px;
+              line-height: 19px;
+              font-weight: 600;
+              color: rgb(17, 17, 17);
             "
           >
-            <i class="fa-brands fa-x-twitter" style="font-size: 15px"></i>
-          </a>
-          <a
-            href="#"
-            class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
-            style="
-              width: 40px;
-              height: 40px;
-              background-color: #e9e9e9;
-              color: #000;
-            "
+            NEWSLETTER
+          </h2>
+          <div
+            class="d-flex justify-content-between align-items-center mt-3 w-100 px-1 py-1 rounded-5"
+            style="border: 1px solid #666"
           >
-            <i class="fa-brands fa-youtube" style="font-size: 15px"></i>
-          </a>
-          <a
-            href="#"
-            class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
-            style="
-              width: 40px;
-              height: 40px;
-              background-color: #e9e9e9;
-              color: #000;
-            "
-          >
-            <i class="fa-brands fa-instagram" style="font-size: 15px"></i>
-          </a>
-          <a
-            href="#"
-            class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
-            style="
-              width: 40px;
-              height: 40px;
-              background-color: #e9e9e9;
-              color: #000;
-            "
-          >
-            <i class="fa-brands fa-pinterest-p" style="font-size: 15px"></i>
-          </a>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="form-control border-0 shadow-none bg-transparent"
+              style="font-size: 14px"
+            />
+
+            <button
+              class="rounded-5 border-0 px-3 py-2 flex-shrink-0"
+              style="
+                font-size: 16px;
+                line-height: 21px;
+                font-weight: 600;
+                color: white;
+                background-color: #ca1515;
+              "
+            >
+              SUBSCRIBE
+            </button>
+          </div>
+          <div class="d-flex flex-wrap gap-3 align-items-center mt-4">
+            <a
+              href="#"
+              class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
+              style="
+                width: 40px;
+                height: 40px;
+                background-color: #e9e9e9;
+                color: #000;
+              "
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a
+              href="#"
+              class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
+              style="
+                width: 40px;
+                height: 40px;
+                background-color: #e9e9e9;
+                color: #000;
+              "
+            >
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a
+              href="#"
+              class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
+              style="
+                width: 40px;
+                height: 40px;
+                background-color: #e9e9e9;
+                color: #000;
+              "
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a
+              href="#"
+              class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
+              style="
+                width: 40px;
+                height: 40px;
+                background-color: #e9e9e9;
+                color: #000;
+              "
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="#"
+              class="d-flex justify-content-center align-items-center rounded-circle text-decoration-none"
+              style="
+                width: 40px;
+                height: 40px;
+                background-color: #e9e9e9;
+                color: #000;
+              "
+            >
+              <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
     <div
-      class="container-fluid px-5"
+      class="container-fluid px-3 px-md-5"
       style="padding-top: 30px; padding-bottom: 40px"
     >
       <hr style="border: 0; border-top: 1px solid #ddd; margin: 0 0 30px 0" />
@@ -2189,7 +2248,6 @@
         by Colorlib
       </p>
     </div>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
